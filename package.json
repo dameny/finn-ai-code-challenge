@@ -2,9 +2,10 @@
   "name": "finn-ai-code-challenge",
   "version": "1.0.0",
   "description": "Code Challenge for Finn AI",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "run": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,18 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.8"
+    "mongodb-memory-server": "^6.9.2",
+    "mongoose": "^5.11.8",
+    "supertest": "^6.0.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "jest": "^26.6.3",
+    "mockgoose": "^8.0.4",
+    "nodemon": "^2.0.6",
+    "querystring": "^0.2.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
