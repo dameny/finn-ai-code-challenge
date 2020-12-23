@@ -1,0 +1,27 @@
+{
+  "name": "finn-ai-code-challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge for Finn AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dameny/finn-ai-code-challenge.git"
+  },
+  "author": "David Ameny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dameny/finn-ai-code-challenge/issues"
+  },
+  "homepage": "https://github.com/dameny/finn-ai-code-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
