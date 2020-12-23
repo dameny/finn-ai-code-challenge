@@ -1,0 +1,37 @@
+{
+  "name": "finn-ai-code-challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge for Finn AI",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "run": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dameny/finn-ai-code-challenge.git"
+  },
+  "author": "David Ameny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dameny/finn-ai-code-challenge/issues"
+  },
+  "homepage": "https://github.com/dameny/finn-ai-code-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb-memory-server": "^6.9.2",
+    "mongoose": "^5.11.8",
+    "supertest": "^6.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "mockgoose": "^8.0.4",
+    "nodemon": "^2.0.6",
+    "querystring": "^0.2.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
