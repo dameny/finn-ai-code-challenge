@@ -9,7 +9,7 @@ A code challenge for Finn AI implementing a small REST API.
 
 `npm install` to install dependencies
 
-Install  mongoDB and setup a database on port 27017 on the local host. This can be change with the url constant in db/db.js. This should be made into an environement variable in the future.
+Install  mongoDB and setup a database on port 27017 on the local host. This can be changed with the `url` constant in `db/db.js`. This should be made into an environement variable in the future.
 
 `npm run` will start the server
 
